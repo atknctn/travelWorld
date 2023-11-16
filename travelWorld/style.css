@@ -1,0 +1,68 @@
+*{
+    text-align: center;
+}
+#logo{
+    width: 400px; 
+    margin: 10px 0 20px 0;
+}
+
+/* navbar */
+.navbar{
+    padding:15px;
+    background-color: orange;
+    height: 20px;
+    width: auto;
+}
+.navbar a{
+    color: white;
+    font-family: 'Mohave', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px;
+}
+.navbar a:hover{
+    color: darkblue;
+}
+
+/* basliklar */ 
+h1,h2,h3{
+    font-family: 'Mohave', sans-serif;
+}
+
+/* metinler */
+.text {
+    font-style: italic;
+    font-family: 'Arapey', serif;
+}
+
+/* tourlist */
+.tourimage{
+    width: 500px;
+   
+}
+.tourlist ul{    
+    padding: 5px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+.tourlist li {
+    margin-bottom: 20px;
+    font-family: 'Arapey', serif;
+} 
+.tourlink{
+    text-decoration: none;
+}
+
+/* producst */
+.products{
+    margin: auto;
+    width: 200px;
+}
+.products ol{    
+    padding: 5px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+.products li {
+    font-family: 'Arapey', serif;
+}
